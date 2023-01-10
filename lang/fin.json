@@ -1,0 +1,859 @@
+{
+  "alat": [
+    {
+      "info": [
+        {
+          "id": 0,
+          "name": "Kaikille yhteinen"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "bio",
+          "name": "Banaanin kuori"
+        },
+        {
+          "id": 2,
+          "type": "bio",
+          "name": "Jäätelötikku"
+        },
+        {
+          "id": 3,
+          "type": "bio",
+          "name": "Pulla/sämpylä"
+        },
+        {
+          "id": 4,
+          "type": "paper",
+          "name": "Sanomalehdet"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Aikakauslehdet"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Kopiopaperit"
+        },
+        {
+          "id": 7,
+          "type": "paper",
+          "name": "Kirjekuoret"
+        },
+        {
+          "id": 8,
+          "type": "paper",
+          "name": "Mainokset"
+        },
+        {
+          "id": 9,
+          "type": "carton",
+          "name": "Mehutölkit"
+        },
+        {
+          "id": 10,
+          "type": "carton",
+          "name": "Pahvilaatikot"
+        },
+        {
+          "id": 11,
+          "type": "carton",
+          "name": "Pahvimuki"
+        },
+        {
+          "id": 12,
+          "type": "carton",
+          "name": "Tupakka-aski"
+        },
+        {
+          "id": 13,
+          "type": "carton",
+          "name": "Nuuskapurkki"
+        },
+        {
+          "id": 14,
+          "type": "plastic",
+          "name": "Muovikääreet"
+        },
+        {
+          "id": 15,
+          "type": "plastic",
+          "name": "Jogurttipurkit"
+        },
+        {
+          "id": 16,
+          "type": "plastic",
+          "name": "Muovipussit"
+        },
+        {
+          "id": 17,
+          "type": "plastic",
+          "name": "Karkkipussi"
+        },
+        {
+          "id": 18,
+          "type": "mixed waste",
+          "name": "Purukumi"
+        },
+        {
+          "id": 19,
+          "type": "mixed waste",
+          "name": "Mustekynä"
+        },
+        {
+          "id": 20,
+          "type": "mixed waste",
+          "name": "Nuuskapussi"
+        },
+        {
+          "id": 21,
+          "type": "metal",
+          "name": "Metallitölkit"
+        },
+        {
+          "id": 22,
+          "type": "metal",
+          "name": "Jogurttipurkin metallikansi"
+        },
+        {
+          "id": 23,
+          "type": "metal",
+          "name": "Tuikkujen kuoret"
+        },
+        {
+          "id": 24,
+          "type": "electronic waste",
+          "name": "Rikkinäiset kuulokkeet"
+        },
+        {
+          "id": 25,
+          "type": "glass",
+          "name": "Lasipullot"
+        },
+        {
+          "id": 26,
+          "type": "energy waste",
+          "name": "Nenäliina"
+        },
+        {
+          "id": 27,
+          "type": "energy waste",
+          "name": "Käsipyyhepaperi"
+        },
+        {
+          "id": 28,
+          "type": "energy waste",
+          "name": "Kasvomaski"
+        },
+        {
+          "id": 29,
+          "type": "batteries",
+          "name": "Paristot"
+        },
+        {
+          "id": 30,
+          "type": "bottle recycling",
+          "name": "Juomatölkki"
+        },
+        {
+          "id": 31,
+          "type": "bottle recycling",
+          "name": "Muovipullot"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 1,
+          "name": "Kiinteistönhuolto"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Metalliosat"
+        },
+        {
+          "id": 2,
+          "type": "hazardous waste",
+          "name": "Liimat"
+        },
+        {
+          "id": 3,
+          "type": "hazardous waste",
+          "name": "Jäteöljy"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Pahvi"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Paperi"
+        },
+        {
+          "id": 6,
+          "type": "mixed waste",
+          "name": "Teipit"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Likainen styrox"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Likaiset tekstiilit"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Kumi"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Eristevilla"
+        },
+        {
+          "id": 11,
+          "type": "mixed waste",
+          "name": "Pvc-putket"
+        },
+        {
+          "id": 12,
+          "type": "plastic",
+          "name": "Pakkausmuovi"
+        },
+        {
+          "id": 13,
+          "type": "plastic",
+          "name": "Styrox"
+        },
+        {
+          "id": 14,
+          "type": "electronic waste",
+          "name": "Koneet ja laitteet"
+        },
+        {
+          "id": 15,
+          "type": "wood waste",
+          "name": "Purkupuu"
+        },
+        {
+          "id": 16,
+          "type": "wood waste",
+          "name": "Puupakkaukset"
+        },
+        {
+          "id": 17,
+          "type": "batteries",
+          "name": "Paristot"
+        },
+        {
+          "id": 18,
+          "type": "accumulators",
+          "name": "Suurakut"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 2,
+          "name": "Putkiala"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Komposiitti"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Metallit"
+        },
+        {
+          "id": 3,
+          "type": "hazardous waste",
+          "name": "Liimat"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Pahvi"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Paperi"
+        },{
+          "id": 6,
+          "type": "mixed waste",
+          "name": "Teipit"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Tekstiilit"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Eristevilla"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Kumi"
+        },
+        {
+          "id": 10,
+          "type": "plastic",
+          "name": "Pakkausmuovi"
+        },
+        {
+          "id": 11,
+          "type": "plastic",
+          "name": "Styrox"
+        },
+        {
+          "id": 12,
+          "type": "electronic waste",
+          "name": "Koneet ja laitteet"
+        },
+        {
+          "id": 13,
+          "type": "wood waste",
+          "name": "Purkupuu"
+        },
+        {
+          "id": 14,
+          "type": "wood waste",
+          "name": "Puupakkaukset"
+        },
+        {
+          "id": 15,
+          "type": "stone materials",
+          "name": "Betoni"
+        },
+        {
+          "id": 16,
+          "type": "oils",
+          "name": "Öljyt"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 3,
+          "name": "Puuala"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Katkennut terä"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Metallinen vahapurkki"
+        },
+        {
+          "id": 3,
+          "type": "metal",
+          "name": "Katkennut ruuvi"
+        },
+        {
+          "id": 4,
+          "type": "metal",
+          "name": "Tyhjä spraymaali"
+        },
+        {
+          "id": 5,
+          "type": "carton",
+          "name": "Pahvipakkaus"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Tulostuspaperi"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Kuivunut liima"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Lakaisujäte"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Likainen pahvi"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Hiomapaperi"
+        },
+        {
+          "id": 11,
+          "type": "mixed waste",
+          "name": "Liimainen paperi"
+        },
+        {
+          "id": 12,
+          "type": "mixed waste",
+          "name": "Tulostusmuovi"
+        },
+        {
+          "id": 13,
+          "type": "mixed waste",
+          "name": "Sahanpuru"
+        },
+        {
+          "id": 14,
+          "type": "plastic",
+          "name": "Pakkausmuovi"
+        },
+        {
+          "id": 15,
+          "type": "wood waste",
+          "name": "Puunpala"
+        },
+        {
+          "id": 16,
+          "type": "wood waste",
+          "name": "Puuviilu"
+        },
+        {
+          "id": 17,
+          "type": "board waste",
+          "name": "Vanerinpala"
+        },
+        {
+          "id": 18,
+          "type": "board waste",
+          "name": "Lastulevy"
+        },
+        {
+          "id": 19,
+          "type": "board waste",
+          "name": "Laminaatti"
+        },
+        {
+          "id": 20,
+          "type": "batteries",
+          "name": "Paristot"
+        },
+        {
+          "id": 21,
+          "type": "electronic waste",
+          "name": "Rikkinäinen porakone"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 4,
+          "name": "Tekstiili ja muoti"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Metallinen värituubi"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Katkennut metallipuikko"
+        },
+        {
+          "id": 3,
+          "type": "carton",
+          "name": "Aaltopahvi"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Pahvimuki"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "A-4 arkki"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Sanomalehti"
+        },
+        {
+          "id": 7,
+          "type": "paper",
+          "name": "Kaavapaperi"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Lakaisujäte"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Likainen paperi"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Muovinen nappi"
+        },
+        {
+          "id": 11,
+          "type": "mixed waste",
+          "name": "Puutikku"
+        },
+        {
+          "id": 12,
+          "type": "mixed waste",
+          "name": "Kuivunut painoväri"
+        },
+        {
+          "id": 13,
+          "type": "plastic",
+          "name": "Muovipakkaus"
+        },
+        {
+          "id": 14,
+          "type": "plastic",
+          "name": "Pahvimukin kansi"
+        },
+        {
+          "id": 15,
+          "type": "textilefabrics",
+          "name": "Kangastilkku"
+        },
+        {
+          "id": 16,
+          "type": "leather",
+          "name": "Nahka"
+        },
+        {
+          "id": 17,
+          "type": "textile",
+          "name": "Tekstiilijäte"
+        },
+        {
+          "id": 18,
+          "type": "textile",
+          "name": "Langan pätkä"
+        },
+        {
+          "id": 19,
+          "type": "batteries",
+          "name": "Paristot"
+        },
+        {
+          "id": 20,
+          "type": "bio",
+          "name": "Hedelmien kuoret"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 5,
+          "name": "Ravintola-ala"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Foliot"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Metallikansi"
+        },
+        {
+          "id": 3,
+          "type": "carton",
+          "name": "Aaltopahvi"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Pahvimuki"
+        },
+        {
+          "id": 5,
+          "type": "carton",
+          "name": "Maitotölkki"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Sanomalehti"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Vinyyli käsine"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Viallinen lautanen"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Lakaisujäte"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Rikkinäinen juomalasi"
+        },
+        {
+          "id": 11,
+          "type": "plastic",
+          "name": "Jogurttipurkki"
+        },
+        {
+          "id": 12,
+          "type": "plastic",
+          "name": "Muovipakkaukset"
+        },
+        {
+          "id": 13,
+          "type": "plastic",
+          "name": "Pahvimukin kansi"
+        },
+        {
+          "id": 14,
+          "type": "energy waste",
+          "name": "Elmu-kelmu"
+        },
+        {
+          "id": 15,
+          "type": "energy waste",
+          "name": "Nenäliina"
+        },
+        {
+          "id": 16,
+          "type": "textile",
+          "name": "Vanhat työasut"
+        },
+        {
+          "id": 17,
+          "type": "batteries",
+          "name": "Paristot"
+        },
+        {
+          "id": 18,
+          "type": "cooking oil",
+          "name": "Nestemäiset rasvat"
+        },
+        {
+          "id": 19,
+          "type": "bottle recycling",
+          "name": "Pantillinen pullo/tölkki"
+        },
+        {
+          "id": 20,
+          "type": "bio",
+          "name": "Vihannesten kuoret"
+        },
+        {
+          "id": 21,
+          "type": "bio",
+          "name": "Pilaantunut ruoka"
+        }
+      ]
+    }
+  ],
+
+  "bins": [
+    {
+      "id": 1,
+      "name": "Muovi",
+      "type": "plastic",
+      "img": "./images/recycle-bin-keltainen.png"
+    },
+    {
+      "id": 2,
+      "name": "Kartonki",
+      "type": "carton",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 3,
+      "name": "Bio",
+      "type": "bio",
+      "img": "./images/recycle-bin-ruskea.png"
+    },
+    {
+      "id": 4,
+      "name": "Metalli",
+      "type": "metal",
+      "img": "./images/recycle-bin-harmaa.png"
+    },
+    {
+      "id": 5,
+      "name": "Lasi",
+      "type": "glass",
+      "img": "./images/recycle-bin-vihreä.png"
+    },
+    {
+      "id": 6,
+      "name": "Sekajäte",
+      "type": "mixed waste",
+      "img": "./images/recycle-bin-tumma.png"
+    },
+    {
+      "id": 7,
+      "name": "Tekstiili",
+      "type": "textile",
+      "img": "./images/recycle-bin-lila.png"
+    },
+    {
+      "id": 8,
+      "name": "Paperi",
+      "type": "paper",
+      "img": "./images/recycle-bin-blue.png"
+    },
+    {
+      "id": 9,
+      "name": "SER",
+      "type": "electronic waste",
+      "img": "./images/recycle-bin-keltainen.png"
+    },
+    {
+      "id": 10,
+      "name": "Vaarallinen jäte",
+      "type": "hazardous waste",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 11,
+      "name": "Puujäte",
+      "type": "wood waste",
+      "img": "./images/recycle-bin-ruskea.png"
+    },
+    {
+      "id": 12,
+      "name": "Paristot",
+      "type": "batteries",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 13,
+      "name": "Akut",
+      "type": "accumulators",
+      "img": "./images/recycle-bin-blue.png"
+    },
+    {
+      "id": 14,
+      "name": "Kiviaines",
+      "type": "stone materials",
+      "img": "./images/recycle-bin-harmaa.png"
+    },
+    {
+      "id": 15,
+      "name": "Öljyt",
+      "type": "oils",
+      "img": "./images/recycle-bin-tumma.png"
+    },
+    {
+      "id": 16,
+      "name": "Levyjäte",
+      "type": "board waste",
+      "img": "./images/recycle-bin-vihreä.png"
+    },
+    {
+      "id": 17,
+      "name": "Pullon palautus",
+      "type": "bottle recycling",
+      "img": "./images/recycle-bin-harmaa.png"
+    },
+    {
+      "id": 18,
+      "name": "Energiajäte",
+      "type": "energy waste",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 19,
+      "name": "Kangastilkut",
+      "type": "textilefabrics",
+      "img": "./images/recycle-bin-vihreä.png"
+    },
+    {
+      "id": 20,
+      "name": "Nahka",
+      "type": "leather",
+      "img": "./images/recycle-bin-ruskea.png"
+    },
+    {
+      "id": 21,
+      "name": "Ruokaöljy",
+      "type": "cooking oil",
+      "img": "./images/recycle-bin-keltainen.png"
+    }
+  ],
+
+  "text": [
+    {
+      "html": [
+        {
+          "value": "Aloita!"
+        },
+        {
+          "value": "Kieli: Suomi"
+        },
+        {
+          "value": "Raahaa roskat oikeisiin roskiksiin!"
+        },
+        {
+          "value": "Muista kierrättää!"
+        },
+        {
+          "value1": "Sait ",
+          "value2": "/10 pistettä!"
+        },
+        {
+          "value": "Pelaa uudestaan"
+        }
+      ],
+      "values": [
+        {
+          "lang": "fin",
+          "flag": "images/finland.jpg"
+        }
+      ]
+    }
+  ]
+}

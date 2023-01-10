@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Kierrätyssovellus</title>
+</head>
+<body>
+
+    <!-- Navigointi -->
+    <div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <div>
+                    <input type="image" class="lippu changeLang" id="flag" src="images/finland.jpg" value="fin" alt="Finnish flag">
+                </div>
+                <!-- toggler dropdown valikolle -->
+                <button class="navbar-toggler valikko" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Dropdown-valikko -->
+                <div class="collapse navbar-collapse" id="navmenu">
+                    <ul class="navbar-nav ms-auto" id="lista">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Pelialue -->
+    <div id="game" class="g-8">
+        <!-- Menu -->
+        <div id="start-menu">
+            <ul id="menu-buttons">
+                <li>
+                    <button id="aloita">
+                        <span style="font-weight:bold;">Aloita!</span>
+                    </button>
+                </li>
+                <li>
+                    <button class="changeLang" id="menu-lang">
+                        Kieli: Suomi
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Otsikot -->
+        <header class="game">
+            <h2 id="ala"></h2>
+            <h1 id="otsikko">Raahaa roskat oikeisiin roskiksiin!</h1>
+        </header>
+
+        <!-- Lajiteltavat -->
+        <div class="game" id="mobiiliroskat">
+            <div class="row pt-5 d-flex justify-content-center" id="roskat">
+            </div>
+        </div>
+
+        <!-- Roskikset -->
+        <div class="game" id="mobiiliroskis">
+            <div class="row pt-5 d-flex justify-content-center" id="bins">  
+            </div>
+        </div>
+    </div>  
+
+    <!-- Footer -->
+    <footer>
+        <h3 class="text-light text-center pt-5 align-items-center" id="footer">Muista kierrättää!</h3>
+        <p class="text-center text-light display-4 pb-5 mb-0"><i class="bi bi-recycle"></i></p>    
+    </footer>
+
+    <script src="index.js" type="module"></script>
+    <script type="module">
+        //importtaa aloita function index.js tiedostosta
+        import {aloita, changeLang} from "./index.js"
+        //jos elementti jolla on "aloita" id painetaan suorittaa importatun function
+        document.querySelector('#aloita').addEventListener('click', aloita)
+        document.querySelectorAll('.changeLang').forEach(item => {
+        item.addEventListener('click', changeLang)})
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

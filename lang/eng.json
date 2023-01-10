@@ -1,0 +1,859 @@
+{
+  "alat": [
+    {
+      "info": [
+        {
+          "id": 0,
+          "name": "Common to all"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "bio",
+          "name": "Banana peel"
+        },
+        {
+          "id": 2,
+          "type": "bio",
+          "name": "Popsicle stick"
+        },
+        {
+          "id": 3,
+          "type": "bio",
+          "name": "Bun/sandwich"
+        },
+        {
+          "id": 4,
+          "type": "paper",
+          "name": "Newspapers"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Magazines"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Copy paper"
+        },
+        {
+          "id": 7,
+          "type": "paper",
+          "name": "Envelopes"
+        },
+        {
+          "id": 8,
+          "type": "paper",
+          "name": "Paper advertisment"
+        },
+        {
+          "id": 9,
+          "type": "carton",
+          "name": "Juice cartons"
+        },
+        {
+          "id": 10,
+          "type": "carton",
+          "name": "Cardboard boxes"
+        },
+        {
+          "id": 11,
+          "type": "carton",
+          "name": "Cardboard mug"
+        },
+        {
+          "id": 12,
+          "type": "carton",
+          "name": "Cigarette pack"
+        },
+        {
+          "id": 13,
+          "type": "carton",
+          "name": "Snuff box"
+        },
+        {
+          "id": 14,
+          "type": "plastic",
+          "name": "Plastic wrap"
+        },
+        {
+          "id": 15,
+          "type": "plastic",
+          "name": "Yogurt cups"
+        },
+        {
+          "id": 16,
+          "type": "plastic",
+          "name": "Plastic bags"
+        },
+        {
+          "id": 17,
+          "type": "plastic",
+          "name": "Candy wrap"
+        },
+        {
+          "id": 18,
+          "type": "mixed waste",
+          "name": "Chewing gum"
+        },
+        {
+          "id": 19,
+          "type": "mixed waste",
+          "name": "Pen"
+        },
+        {
+          "id": 20,
+          "type": "mixed waste",
+          "name": "Snuff bag"
+        },
+        {
+          "id": 21,
+          "type": "metal",
+          "name": "Metal cans"
+        },
+        {
+          "id": 22,
+          "type": "metal",
+          "name": "Tinfoil"
+        },
+        {
+          "id": 23,
+          "type": "metal",
+          "name": "Tealight cup"
+        },
+        {
+          "id": 24,
+          "type": "electronic waste",
+          "name": "Broken headphones"
+        },
+        {
+          "id": 25,
+          "type": "glass",
+          "name": "Glass bottles"
+        },
+        {
+          "id": 26,
+          "type": "energy waste",
+          "name": "Tissue"
+        },
+        {
+          "id": 27,
+          "type": "energy waste",
+          "name": "Paper towel"
+        },
+        {
+          "id": 28,
+          "type": "energy waste",
+          "name": "Face mask"
+        },
+        {
+          "id": 29,
+          "type": "batteries",
+          "name": "Batteries"
+        },
+        {
+          "id": 30,
+          "type": "bottle recycling",
+          "name": "Soda can"
+        },
+        {
+          "id": 31,
+          "type": "bottle recycling",
+          "name": "Plastic bottle"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 1,
+          "name": "Property maintenance"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Metal parts"
+        },
+        {
+          "id": 2,
+          "type": "hazardous waste",
+          "name": "Adhesives"
+        },
+        {
+          "id": 3,
+          "type": "hazardous waste",
+          "name": "Waste oil"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Cardboard"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Paper"
+        },
+        {
+          "id": 6,
+          "type": "mixed waste",
+          "name": "Adhesive tape"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Dirty styrox"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Dirty textiles"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Rubber"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Insulator"
+        },
+        {
+          "id": 11,
+          "type": "mixed waste",
+          "name": "Pvc pipe"
+        },
+        {
+          "id": 12,
+          "type": "plastic",
+          "name": "Packaging plastic"
+        },
+        {
+          "id": 13,
+          "type": "plastic",
+          "name": "Styrox"
+        },
+        {
+          "id": 14,
+          "type": "electronic waste",
+          "name": "Machinery and equipment"
+        },
+        {
+          "id": 15,
+          "type": "wood waste",
+          "name": "Demolition waste"
+        },
+        {
+          "id": 16,
+          "type": "wood waste",
+          "name": "Wooden packaging"
+        },
+        {
+          "id": 17,
+          "type": "batteries",
+          "name": "Batteries"
+        },
+        {
+          "id": 18,
+          "type": "accumulators",
+          "name": "Accumulators"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 2,
+          "name": "Plumbing"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Composite"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Metals"
+        },
+        {
+          "id": 3,
+          "type": "hazardous waste",
+          "name": "Adhesives"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Cardboard"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Paper"
+        },{
+          "id": 6,
+          "type": "mixed waste",
+          "name": "Adhesive tape"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Textiles"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Insulator"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Rubber"
+        },
+        {
+          "id": 10,
+          "type": "plastic",
+          "name": "Packaging plastic"
+        },
+        {
+          "id": 11,
+          "type": "plastic",
+          "name": "Styrox"
+        },
+        {
+          "id": 12,
+          "type": "electronic waste",
+          "name": "Machinery and equipment"
+        },
+        {
+          "id": 13,
+          "type": "wood waste",
+          "name": "Demolition waste"
+        },
+        {
+          "id": 14,
+          "type": "wood waste",
+          "name": "Wooden packaging"
+        },
+        {
+          "id": 15,
+          "type": "stone materials",
+          "name": "Concrete"
+        },
+        {
+          "id": 16,
+          "type": "oils",
+          "name": "Oils"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 3,
+          "name": "Woodcrafts"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Broken blade"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Metal wax jar"
+        },
+        {
+          "id": 3,
+          "type": "metal",
+          "name": "Broken screw"
+        },
+        {
+          "id": 4,
+          "type": "metal",
+          "name": "Empty spraycan"
+        },
+        {
+          "id": 5,
+          "type": "carton",
+          "name": "Cardboard packaging"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Printing paper"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Dried glue"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Sweeping waste"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Dirty cardboard"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Sandpaper"
+        },
+        {
+          "id": 11,
+          "type": "mixed waste",
+          "name": "Paper with glue stains"
+        },
+        {
+          "id": 12,
+          "type": "mixed waste",
+          "name": "Printing plastic"
+        },
+        {
+          "id": 13,
+          "type": "mixed waste",
+          "name": "Sawdust"
+        },
+        {
+          "id": 14,
+          "type": "plastic",
+          "name": "Packaging plastic"
+        },
+        {
+          "id": 15,
+          "type": "wood waste",
+          "name": "Piece of wood"
+        },
+        {
+          "id": 16,
+          "type": "wood waste",
+          "name": "Wood veneer"
+        },
+        {
+          "id": 17,
+          "type": "board waste",
+          "name": "Piece of plywood"
+        },
+        {
+          "id": 18,
+          "type": "board waste",
+          "name": "Chipboard"
+        },
+        {
+          "id": 19,
+          "type": "board waste",
+          "name": "Laminate"
+        },
+        {
+          "id": 20,
+          "type": "batteries",
+          "name": "Batteries"
+        },
+        {
+          "id": 21,
+          "type": "electronic waste",
+          "name": "Broken drill"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 4,
+          "name": "Textile and fashion"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Metallic color tube"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Broken metal stick"
+        },
+        {
+          "id": 3,
+          "type": "carton",
+          "name": "Cardboard"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Cardboard mug"
+        },
+        {
+          "id": 5,
+          "type": "paper",
+          "name": "Printing paper"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Newspapers"
+        },
+        {
+          "id": 7,
+          "type": "paper",
+          "name": "Pattern paper"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Sweeping waste"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Dirty paper"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Plastic button"
+        },
+        {
+          "id": 11,
+          "type": "mixed waste",
+          "name": "Stick of wood"
+        },
+        {
+          "id": 12,
+          "type": "mixed waste",
+          "name": "Dried fabric color"
+        },
+        {
+          "id": 13,
+          "type": "plastic",
+          "name": "Plastic packaging"
+        },
+        {
+          "id": 14,
+          "type": "plastic",
+          "name": "Lid of a cardboard mug"
+        },
+        {
+          "id": 15,
+          "type": "textilefabrics",
+          "name": "Scrap of cloth"
+        },
+        {
+          "id": 16,
+          "type": "leather",
+          "name": "Leather"
+        },
+        {
+          "id": 17,
+          "type": "textile",
+          "name": "Textile waste"
+        },
+        {
+          "id": 18,
+          "type": "textile",
+          "name": "Thread"
+        },
+        {
+          "id": 19,
+          "type": "batteries",
+          "name": "Batteries"
+        },
+        {
+          "id": 20,
+          "type": "bio",
+          "name": "Fruit peels"
+        }
+      ]
+    },
+    {
+      "info": [
+        {
+          "id": 5,
+          "name": "Restaurant"
+        }
+      ],
+      "trash": [
+        {
+          "id": 1,
+          "type": "metal",
+          "name": "Foil"
+        },
+        {
+          "id": 2,
+          "type": "metal",
+          "name": "Metal lid"
+        },
+        {
+          "id": 3,
+          "type": "carton",
+          "name": "Cardboard"
+        },
+        {
+          "id": 4,
+          "type": "carton",
+          "name": "Cardboard mug"
+        },
+        {
+          "id": 5,
+          "type": "carton",
+          "name": "Milk carton"
+        },
+        {
+          "id": 6,
+          "type": "paper",
+          "name": "Newspapers"
+        },
+        {
+          "id": 7,
+          "type": "mixed waste",
+          "name": "Vinyl glove"
+        },
+        {
+          "id": 8,
+          "type": "mixed waste",
+          "name": "Broken plate"
+        },
+        {
+          "id": 9,
+          "type": "mixed waste",
+          "name": "Sweeping waste"
+        },
+        {
+          "id": 10,
+          "type": "mixed waste",
+          "name": "Broken drinking glass"
+        },
+        {
+          "id": 11,
+          "type": "plastic",
+          "name": "Yogurt cup"
+        },
+        {
+          "id": 12,
+          "type": "plastic",
+          "name": "Plastic packaging"
+        },
+        {
+          "id": 13,
+          "type": "plastic",
+          "name": "Lid of a cardboard mug"
+        },
+        {
+          "id": 14,
+          "type": "energy waste",
+          "name": "Film"
+        },
+        {
+          "id": 15,
+          "type": "energy waste",
+          "name": "Tissue"
+        },
+        {
+          "id": 16,
+          "type": "textile",
+          "name": "Old workwear"
+        },
+        {
+          "id": 17,
+          "type": "batteries",
+          "name": "Batteries"
+        },
+        {
+          "id": 18,
+          "type": "cooking oil",
+          "name": "Liquid fat"
+        },
+        {
+          "id": 19,
+          "type": "bottle recycling",
+          "name": "Pawned bottles/cans"
+        },
+        {
+          "id": 20,
+          "type": "bio",
+          "name": "Vegetable peels"
+        },
+        {
+          "id": 21,
+          "type": "bio",
+          "name": "Spoiled food"
+        }
+      ]
+    }
+  ],
+
+  "bins": [
+    {
+      "id": 1,
+      "name": "Plastic",
+      "type": "plastic",
+      "img": "./images/recycle-bin-keltainen.png"
+    },
+    {
+      "id": 2,
+      "name": "Carton",
+      "type": "carton",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 3,
+      "name": "Bio",
+      "type": "bio",
+      "img": "./images/recycle-bin-ruskea.png"
+    },
+    {
+      "id": 4,
+      "name": "Metal",
+      "type": "metal",
+      "img": "./images/recycle-bin-harmaa.png"
+    },
+    {
+      "id": 5,
+      "name": "Glass",
+      "type": "glass",
+      "img": "./images/recycle-bin-vihreä.png"
+    },
+    {
+      "id": 6,
+      "name": "Mixed waste",
+      "type": "mixed waste",
+      "img": "./images/recycle-bin-tumma.png"
+    },
+    {
+      "id": 7,
+      "name": "Textile",
+      "type": "textile",
+      "img": "./images/recycle-bin-lila.png"
+    },
+    {
+      "id": 8,
+      "name": "Paper",
+      "type": "paper",
+      "img": "./images/recycle-bin-blue.png"
+    },
+    {
+      "id": 9,
+      "name": "Electronic waste",
+      "type": "electronic waste",
+      "img": "./images/recycle-bin-keltainen.png"
+    },
+    {
+      "id": 10,
+      "name": "Hazardous waste",
+      "type": "hazardous waste",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 11,
+      "name": "Wood waste",
+      "type": "wood waste",
+      "img": "./images/recycle-bin-ruskea.png"
+    },
+    {
+      "id": 12,
+      "name": "Batteries",
+      "type": "batteries",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 13,
+      "name": "Accumulators",
+      "type": "accumulators",
+      "img": "./images/recycle-bin-blue.png"
+    },
+    {
+      "id": 14,
+      "name": "Stone materials",
+      "type": "stone materials",
+      "img": "./images/recycle-bin-harmaa.png"
+    },
+    {
+      "id": 15,
+      "name": "Oils",
+      "type": "oils",
+      "img": "./images/recycle-bin-tumma.png"
+    },
+    {
+      "id": 16,
+      "name": "Board waste",
+      "type": "board waste",
+      "img": "./images/recycle-bin-vihreä.png"
+    },
+    {
+      "id": 17,
+      "name": "Bottle recycling",
+      "type": "bottle recycling",
+      "img": "./images/recycle-bin-harmaa.png"
+    },
+    {
+      "id": 18,
+      "name": "Energy waste",
+      "type": "energy waste",
+      "img": "./images/recycle-bin-red.png"
+    },
+    {
+      "id": 19,
+      "name": "Textilefabrics",
+      "type": "textilefabrics",
+      "img": "./images/recycle-bin-vihreä.png"
+    },
+    {
+      "id": 20,
+      "name": "Leather",
+      "type": "leather",
+      "img": "./images/recycle-bin-ruskea.png"
+    },
+    {
+      "id": 21,
+      "name": "Cooking oil",
+      "type": "cooking oil",
+      "img": "./images/recycle-bin-keltainen.png"
+    }
+  ],
+
+  "text": [
+    {
+      "html": [
+        {
+          "value": "Start!"
+        },
+        {
+          "value": "Language: English"
+        },
+        {
+          "value": "Drag the trash into the right bins!"
+        },
+        {
+          "value": "Remember to recycle!"
+        },
+        {
+          "value1": "You got ",
+          "value2": "/10 points!"
+        },
+        {
+          "value": "play again"
+        }
+      ],
+      "values": [
+        {
+          "lang": "eng",
+          "flag": "images/english.jpg"
+        }
+      ]
+    }
+  ]
+}

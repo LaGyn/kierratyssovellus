@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Oletusvärimuuttujat */
+:root {
+    --tumma-tausta:rgb(27, 163, 32);
+    --vaalea-tausta:rgb(172, 245, 152);
+    --teksti-tumma:rgb(11, 74, 22);
+    --dragable-tausta:rgb(23, 223, 170);
+    --hover-tausta:rgb(39, 103, 84);
+}
+
+html, body {
+    margin: 0;
+}
+
+.draggable {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    min-height: 1.5em;
+    margin: 0.5rem 0 0 0.5rem;
+    background-color: var(--dragable-tausta);
+    color: white;
+    font-size: large;
+    text-align: center;
+    border-radius: 0.75em;
+    border: solid 1px rgb(7, 142, 90);
+    touch-action: none;
+    user-select: none;
+    z-index: 2;
+  }
+
+.dropzone {
+    width:fit-content;
+}
+
+.navbar {
+    background-color: var(--tumma-tausta);
+}
+
+.lippu {
+    margin: 5px;
+    width: 30px;
+}
+
+#game {
+    background-color: var(--vaalea-tausta);
+    background-image: url("images/Recycle-Logo-Vector-drawing.png");
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 50% 60%;
+    width:100%;
+    min-height: 100%; 
+    padding-bottom: 50px;
+    margin: 0;
+    overflow: hidden;
+}
+
+header, h3 {
+    text-align: center;
+    color: var(--teksti-tumma);
+    padding-top: 8%;
+}
+
+h4 {
+    text-align: center;
+}
+
+.draggable:hover {
+    background-color: var(--hover-tausta);
+}
+
+#roskis {
+    max-width: 100%;
+}
+
+footer {
+    background-color: var(--tumma-tausta);
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.uusintaNappi, #aloita, #menu-lang {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: var(--dragable-tausta);
+    border: solid 1px rgb(7, 142, 90);
+    border-radius: 10px;
+    color: white;
+}
+
+#navmenu {
+    cursor: pointer;
+}
+
+.game {
+    display:none;
+}
+
+#menu-buttons {
+    list-style: none;
+}
+
+#aloita, #menu-lang {
+    width: 220px;
+}
+
+#start-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.col-md {
+    width: 10%;
+}
+
+#bins {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+ .col-md {
+    flex: 1 0 25%;
+ }
+}
+
+/* Mobiili */
+@media screen and (max-width: 700px) {
+    header {
+        margin-top: 50px;
+        padding-top: 50px;
+    }
+
+    #game {
+        background-position: 50% 130px;
+    }
+
+    .col-md {
+        display: inline-block; 
+    }
+
+    h3, h4 {
+        padding-top: 0%;
+        font-size: small;
+        text-align: center;
+    }
+
+    #roskis {
+        display: inline-block;
+        width:70px;
+    }
+
+    .draggable {
+        width: fit-content;
+        height: fit-content;
+        border-radius: 10px;
+        font-size: smaller;
+        text-align: center;
+        padding: 5px;
+        margin: 0;
+        max-width: 100px;
+    }
+
+    .dropdown-content {
+        display: none;
+    }
+
+    #bins {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
